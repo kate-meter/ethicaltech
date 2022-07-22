@@ -1,0 +1,108 @@
+/*styling whole page*/
+*{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: white;
+  font-family: 'Helvetica';
+  background-color: #68d8d6;
+}
+
+h1{
+  padding: 0.5em;
+}
+
+h2{
+  margin-top: 2%;
+}
+
+h3{
+  margin-top: 1%;
+}
+
+h4{
+  padding: 0.75em;
+}
+
+/*styling nav bar*/
+ul{
+  overflow: hidden;
+  padding: 0.5em;
+  text-align: right;
+}
+
+li{
+  display: inline;
+  margin: 10px;
+}
+
+li a{
+  text-decoration: none;
+  font-size: 0.75cm;
+  transition-duration: 0.4s;
+}
+
+li a:hover{
+  color: lightgray;
+}
+
+/*styling image*/
+img{
+  width: 40%;
+  height: auto;
+  padding: 1.5em;
+}
+
+#homepic{
+  border-style: solid;
+  border-color: white;
+}
+
+/*styling description of digital minimalism*/
+#dmD{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2em;
+}
+
+/*styling info blocks*/
+.info{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2em;
+  border-style: solid;
+  padding: 1em;
+}
+
+/*styling button*/
+
+button{
+  border-style: solid;
+  border-color: white;
+  padding: 1em;
+  background-color: #68d8d6;
+}
+
+button:hover{
+  background-color: white;
+  color: #68d8d6;
+}
+
+/*flexbox*/
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-item{
+  flex-basis: 100%;
+  margin: 1%;
+}
+
+@media screen and (max-width: 600px){
+  .flex{
+    flex-wrap: wrap;
+  }
+}
